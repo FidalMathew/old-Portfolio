@@ -23,7 +23,7 @@ export default function Contact() {
 
   return (
     <>
-        <div className="contact">
+        <div id ="contact" className="contact">
         <div  style={{textAlign:'center' ,marginBottom:'60px', fontSize:'30px', color:'var(--green)'}}>&lt;Contact/&gt;</div>
         <form className="center_form" ref={form} onSubmit={sendEmail} >
 

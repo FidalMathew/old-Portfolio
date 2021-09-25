@@ -12,10 +12,7 @@ import { FaGithub } from "react-icons/fa";
 export default function Home() {
   return (
     <>
-      <div className="content">
-
-
-
+      <div id="home" className="content">
 
         <div className="col-1">
 

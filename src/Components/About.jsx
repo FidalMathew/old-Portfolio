@@ -1,20 +1,50 @@
 import React from 'react'
 import './About.css'
+import deku from './img/deku.gif';
+
 export default function About() {
     return (
         <>
-           <div  className="aboutme">
-               <div  style={{textAlign:'center' ,marginBottom:'60px'}}>&lt;ABOUT/&gt;</div>
-             
-             <div className="about_box">
-               <div className="quote"> If you are not willing to <br/>learn,<br/> no one can <span> help you</span> <br/>
-               If you are determined to <br/>learn,<br/> no one can <span> stop you</span> </div>
+  <div id="about" className="aboutme">
+                <div style={{ textAlign: 'center', marginBottom: '60px', fontSize: '30px', color: 'var(--green)' }}> &lt;About/&gt;</div>
+
+                <div className="about_box">
+                    <div className="about_col_1">
+                        I am a tech enthusiast, I like to learn new <br />
+                        techologies and love developing web apps. <br /> I am starting contribute to open source <br /> projects.
+                        <br />
+                        <br />
+                        <br />
+                        Apart from coding, I like to
+
+                        <ul>
+                            <li>play video games</li>
+                            <li>watch anime/series</li>
+                            <li>make funny photoshop edits</li>
+                        </ul>
+                    </div>
+
+                    <div className="about_col_2">
+                        Age-19 <br /><br />
+                        Residence-Delhi,India <br />
+                        <img src={deku} alt="" style={{    marginTop: "75px", width: "80%"}} />
+                    </div>
+
+                </div>
+                
+
+</div>          
+
+
+
+        
            
-               </div>
-           </div>
+        
 
-
-
+  
         </>
-    )
-}
+    );
+};
+
+
+

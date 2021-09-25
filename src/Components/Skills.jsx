@@ -8,14 +8,15 @@ import Css from './img/css3.png';
 import Bootstrap from './img/bootstrap.png';
 import Figma from './img/figma.png';
 import Javascript from './img/javascript.png';
-import Sword from './img/sword.gif';
+import learn from './img/learn.gif';
 
 
 export default function Skills() {
     return (
-        <div className="skills">
+        <div id="skills" className="skills">
 
-            <div  style={{textAlign:'center' ,marginBottom:'60px', fontSize:'43px', color:'var(--green)'}}>&lt;Skills/&gt;</div>
+<div  style={{textAlign:'center' ,marginBottom:'60px', fontSize:'30px', color:'var(--green)'}}>&lt;Skills/&gt;</div>
+
             <p> Technologies I am familiar with-</p>
 
             <div className="skills_content">
@@ -35,8 +36,8 @@ export default function Skills() {
                 </div>
 
                 <div>
-                    <img src={Sword} alt="" />
-                    <div style={{fontSize:"25px",position:"relative",bottom:"10px"}}>And learning... 😊 </div>
+                    <img src={learn} alt="" />
+                    <div style={{fontSize:"25px",position:"relative",top:"50px"}}>And learning... 😊 </div>
                 </div>
 
             </div>

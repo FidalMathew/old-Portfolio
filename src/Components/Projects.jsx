@@ -37,6 +37,13 @@ const Projects=[
         code:"https://github.com/FidalMathew/apple.com",
         img:Me
     }
+    ,{
+        name:"Amazon-Prime Hover",
+        tech:"HTML CSS ",
+        link: "https://fidalmathew.github.io/amazonprime-movieanimation/",
+        code:"https://github.com/FidalMathew/amazonprime-movieanimation",
+        img:PrimeAnim
+    }
 ];
 
 export default Projects;

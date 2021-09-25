@@ -1,8 +1,9 @@
 .skills {
+    height: 100vh;    
+
     padding-left: 96px;
     padding-right: 96px;
     /* font-size: 100px; */
-    
     font-family: 'Roboto', sans-serif;
     background-color: rgb(17 18 35);
     background-image: linear-gradient(rgb(17 18 35), black);
@@ -20,7 +21,7 @@
 .skills_content{
     display: flex;
     color: white;
-    width: 60%;
+    width: 80%;
 }
 
 .skill_name img{

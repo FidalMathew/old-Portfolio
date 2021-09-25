@@ -6,7 +6,7 @@ import Propwork from './Propwork'
 export default function Work() {
     return (
         <>
-            <div className="work">
+            <div id="work" className="work">
             <div  style={{textAlign:'center' ,marginBottom:'60px', fontSize:'30px', color:'var(--green)'}}>&lt;Work/&gt;</div>
             <div className="work_projects">
 
