@@ -1,0 +1,29 @@
+.aboutme{
+    padding-left: 150px;
+    padding-right: 96px;
+    font-size: 45px;
+    padding-top: 45px;
+    height: 86vh;
+    color: white;
+    background-color: rgb(17 18 35);
+    font-family: 'Oswald', sans-serif;
+    
+}
+.quote {
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    /* border: 1px solid #28ec80; */
+    width: -moz-fit-content;
+    border-radius: 25px;
+    box-shadow: 0 0 11px 4px #28ec80;
+    width: fit-content;
+    padding: 45px;
+    /* box-shadow: 0 8px 8px -4px #28ec80; */
+}
+.quote span{
+    font-size:53px;
+    color: #28ec80;
+    font-weight: bold;
+
+}
