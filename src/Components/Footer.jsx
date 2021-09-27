@@ -24,7 +24,7 @@ export default function Footer() {
   <FaGithub size={50} style={{ color: 'black' ,width:"23px",height:"23px"}} />
   </a>
   
-
+<span style={{position:"relative",left:"1%",fontSize:"18px"}}>| No Bootstrap components Used</span>
 
 
 </div>

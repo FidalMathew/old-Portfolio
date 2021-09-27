@@ -7,6 +7,7 @@
     background-color: rgb(17 18 35);
     background-image: linear-gradient(rgb(17 18 35), black);
     
+    position: relative;
     /* rgb(17 18 35)  blue shade looks good*/ 
 }
 
@@ -26,7 +27,7 @@
   }
 
 .col-1{
-    flex-basis:50% ;
+    flex-basis:60% ;
     
     padding-top: 96px;
 }
@@ -38,7 +39,7 @@
   transition: ease-in;
 }
 .col-1 h1{
-    font-size: 65px;
+    font-size: 3.8em;
     color: white;
     
 }
@@ -46,7 +47,7 @@
 
 .col-1 .name{
     color:rgb(37 80 213);
-    font-size: 65px;
+    font-size: 1em;
     color: #28ec80;
 
 }
@@ -59,7 +60,7 @@
     color: white;
     border: none;
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+    font-size: 22px;
     border-radius: 6px;
     cursor: pointer;
     position: relative;
@@ -77,7 +78,7 @@
 
 .social_icons{
     position: absolute;
-    bottom: 60px;
+    bottom: 2em;
 }
 .social_icons a{
     margin-right: 24px;    
@@ -88,11 +89,13 @@
     /* height: fit-content; */
 }
 
+.home_i{
+    width: 2em;
+}
 .me_img{
-    width: 87%;
-    
+    width: 92%;
     position: relative;
-    left:25%;
+    left: 8em;
     
 } 
 

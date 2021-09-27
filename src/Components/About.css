@@ -1,6 +1,6 @@
 .aboutme {
     min-height: 100vh;
-    padding-top: 50px;
+    padding-top: 4em;
     padding-left: 14%;
     padding-right: 14%;
     /* font-size: 100px; */
@@ -10,8 +10,8 @@
 
 .about_box{
     background-color: white;
-    font-size: 25px;
-    padding: 50px;
+    font-size: 1.3em;
+    padding:  4em;
     display: flex;
     justify-content: space-between;
 }

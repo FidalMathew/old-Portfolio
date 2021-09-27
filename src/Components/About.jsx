@@ -5,8 +5,8 @@ import deku from './img/deku.gif';
 export default function About() {
     return (
         <>
-  <div id="about" className="aboutme">
-                <div style={{ textAlign: 'center', marginBottom: '60px', fontSize: '30px', color: 'var(--green)' }}> &lt;About/&gt;</div>
+  <div id="about"  className="aboutme">
+                <div className="headers" > &lt;About/&gt;</div>
 
                 <div className="about_box">
                     <div className="about_col_1">

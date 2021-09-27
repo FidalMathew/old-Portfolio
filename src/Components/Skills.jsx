@@ -13,15 +13,17 @@ import learn from './img/learn.gif';
 
 export default function Skills() {
     return (
-        <div id="skills" className="skills">
+        <div id="skills"  className="skills">
 
-<div  style={{textAlign:'center' ,marginBottom:'60px', fontSize:'30px', color:'var(--green)'}}>&lt;Skills/&gt;</div>
+<div className="headers" >&lt;Skills/&gt;</div>
 
             <p> Technologies I am familiar with-</p>
 
-            <div className="skills_content">
-                <div className="development_skills">
-                    <div className="h">{`{Development}`}</div>    
+            <div className="skills_content" data-aos="fade-right"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine" >
+                <div className="development_skills" >
+                    <div className="h"  >{`{Development}`}</div>    
 
                     <div className="skill_name"><img src={Html} alt="" /><span>HTML</span></div>
                     <div className="skill_name"><img src={Css} alt="" /><span>CSS</span></div>
@@ -35,9 +37,12 @@ export default function Skills() {
                     <div className="skill_name"><img src={Figma} alt="" /><span>Figma</span></div>
                 </div>
 
-                <div>
-                    <img src={learn} alt="" />
-                    <div style={{fontSize:"25px",position:"relative",top:"50px"}}>And learning... 😊 </div>
+                <div data-aos="fade-left"
+     data-aos-offset="200"
+     
+     data-aos-easing="ease-in-sine">
+                    <img className="gif_learn" src={learn} alt=""  />
+                    <div className="div" >And learning... 😊 </div>
                 </div>
 
             </div>

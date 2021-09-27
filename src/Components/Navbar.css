@@ -9,6 +9,12 @@
     --green: #28ec80; 
   }
 
+.active{
+    color: rgb(255, 255, 255) !important;
+    border-bottom: 3px solid #08d665;
+    
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -23,6 +29,9 @@
 }
 
 
+.nav_a{
+    cursor: pointer;
+}
 
 .menu ul{
     display: flex; 
@@ -44,7 +53,7 @@
     text-transform:uppercase;
     font-family: 'Lato', sans-serif;
     font-size: 17px;
-    color: #61ffa8;
+
 }
 .menu ul li a:hover{
     color: rgb(255, 255, 255);
