@@ -227,6 +227,7 @@ margin-bottom: 15px;
 
 
 @media only screen and (max-width: 1080px) 
+
 {
     .menu{
         display: none;
@@ -335,7 +336,178 @@ margin-bottom: 15px;
     padding: 11%;
 }
 
+@media only screen and (max-width: 720px){ 
+.navbar a {
+    font-size: 1.5em;
+}
+}
+.col-1 h1 {
+    font-size: 2.7em;
+    color: white;
+    display: block;
+}
+
+.content {
+    padding-left: 0;
+    
+}
+.col-1 .button {
+    width: 45%;
+    padding: 0.3em;
+    font-size: 1.3em;
+}
+
+.home_i {
+    width: 2em;
+}
+
+.headers {
+    font-size: 2em;
+}
 
 
+/* about */
+.about_col_2::before {
+    content: "";
+    width: 3px;
+    position: absolute;
+    left: -7px;
+    height: 31%;
+    top: 4px;
+    background-color: #3fff53;
+    z-index: 3;
+}
+
+.about_col_2 {
+    position: relative;
+    right: -5%;
+}
+
+.about_box {
+    
+    font-size: 0.5em;
+    
+}
+
+.aboutme {
+    min-height: 0;
+    padding-bottom: 0em;
+}
+
+.skills {
+   
+    padding-left: 2em;
+    padding-right: 2em;
+   
+}
+
+.skills p {
+    width: 100%;
+    font-size: 1.6em;
+    margin-bottom: 32px;
+}
+.skills_content .h {
+    font-size: 1.5em;
+    margin: 1em;
+}
+.skills_content span {
+    position: relative;
+    font-size: 1em;
+    left: 2em;
+    bottom: 10px;
+}
+.div {
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+.work .work_projects {
+    padding-left: 0; 
+     padding-right: 0;
+  
+}
+.project_prop {
+    width: 100%;
+}
+
+
+
+
+.center_form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.center_form input{
+    margin-top: 20px;
+    position: relative;
+    right:0 ;
+    width: 70% !important;
+}
+
+.center_form textarea{
+    width: 80% !important;
+    height: 100px !important;
+    right: 0 !important; 
+    margin-top: 20px !important;
+    position: relative;
+}
+
+.submit_button {
+   
+    left: 15%;
+}
+
+.center_form label{
+    margin-top: 20px;
+    position: relative;
+    bottom: 0 !important;
+   
+}
+
+.footer span{
+    position: relative;
+    left: 10%;
+}
+
+.footer_icons {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bootstrap{
+    text-align: center;
+}
+
+.foot_social_icons{
+    text-align: center;
+}
+
+.copyright{
+    position: relative;
+    left: 10% !important;
+    font-size: 18px !important;
+
+}
+
+.content {
+    
+    padding-right: 0;
+}
+
+.navbar{
+    
+    padding-left: 2.5em;
+
+}
+.col-1 {
+    flex-basis: 60%;
+    padding-top: 3em;
+}
 }
 
