@@ -41,7 +41,7 @@ export default function Footer() {
 
 </div>
 
-            <div className="copyright" style={{textAlign:"center",width:"80%"}}>Copyright &#169;2021 | Made by Fidal</div>
+            <div className="copyright" style={{textAlign:"center"}}>Copyright &#169;2021 | Made by Fidal</div>
 
             </div>
         </div>
